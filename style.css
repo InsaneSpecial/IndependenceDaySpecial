@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+body{
+    font-family: 'Dancing Script', cursive;
+    background-image: url(https://i.ytimg.com/vi/r067Mw7wis8/maxresdefault.jpg);
+  background-size: 100% 100%;
+}   
+img{
+    display: block;
+}
+img{
+    height: 50em;
+    margin-left: 1em;
+    border-radius: 10px;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    color: crimson;  
+}
+div{
+    background-color: orange;
+    padding: 2%;
+  margin: 14%;
+  border-radius: 10px;
+}
+img:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px 5px crimson;
+  }
+  h1:hover{
+    cursor:pointer;
+    animation: mymove 2s infinite;
+  }
+  
+  @keyframes mymove{
+    from{color: crimson;}
+    to{color: dodgerblue;font-size: 300%;}
